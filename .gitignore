@@ -1,6 +1,7 @@
 
 /.idea/
 /target/
+/vendor/
 **/*.rs.bk
 /*.png
 /*.jpg

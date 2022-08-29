@@ -6,7 +6,7 @@ use image::DynamicImage;
 use self::image::GenericImage;
 use std::cmp::min;
 
-struct ImageRect {
+pub struct ImageRect {
     x: u32,
     y: u32,
     w: u32,

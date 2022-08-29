@@ -15,6 +15,14 @@ exclude = [
     "/.Dockerfile"
 ]
 
+[lib]
+name = "stitchy"
+path = "src/lib.rs"
+
+[[bin]]
+name = "stitchy"
+path = "src/main.rs"
+
 [dependencies]
 structopt = { version = "0.3.26", default-features = false }
 image = { version = "0.24.0", default-features = false, features = ["jpeg", "png", "gif", "bmp"] }
